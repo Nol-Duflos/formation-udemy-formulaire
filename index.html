@@ -10,9 +10,27 @@
 <body>
 
     <form action="">
-        
-        <input type="text" name="" id="">
+
+
+        <label for="monInpTxt">Renseignez votre prénom</label>
+        <input type="text" name="" id="monInpTx" name="Prénom" placeholder="Votre prénom">
         <input type="submit" value="Hello">
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <br><br>
+
+        <label for="fruits">Quel est votre fruit préféré ?</label>
+        <input type="text" id="fruits" list="suggestion">
+        <datalist id="suggestion">
+            <option value="pomme">Vitamine A</option>
+            <option value="fraise"></option>
+            <option value="peche"></option>
+            <option value="banane">Potasium</option>
+            <option value="mangue"></option>
+            <option value="cerie"></option>
+        </datalist>
+
         <button>Envoyer</button>
 
 
